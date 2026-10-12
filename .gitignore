@@ -1,0 +1,37 @@
+# Local credentials (copy secrets.example.h to secrets.h locally)
+secrets.h
+secrets.local.h
+.env
+.env.*
+!.env.example
+# OS and editor state
+.DS_Store
+._*
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.bak
+*.Bak
+*.tmp
+# Build output and Keil personal/debug state
+Objects/
+Listings/
+DebugConfig/
+build/
+.pio/
+*.uvoptx
+*.uvguix.*
+*.o
+*.obj
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.crf
+*.d
+*.dep
+*.lnp
+*.log
